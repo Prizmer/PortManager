@@ -56,7 +56,7 @@
             this.rtbCmd.Name = "rtbCmd";
             this.rtbCmd.Size = new System.Drawing.Size(518, 66);
             this.rtbCmd.TabIndex = 3;
-            this.rtbCmd.Text = "0x01 0x02 0x03";
+            this.rtbCmd.Text = "";
             this.rtbCmd.TextChanged += new System.EventHandler(this.rtbCmd_TextChanged);
             this.rtbCmd.DoubleClick += new System.EventHandler(this.rtbCmd_DoubleClick);
             // 
