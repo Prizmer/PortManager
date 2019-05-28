@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortManager", "PortManager\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CtlPortManager", "PMControls\CtlPortManager.csproj", "{FA1F6772-E580-46D0-A7D1-1D58D77BA8CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibPorts", "PortsLib\LibPorts.csproj", "{E3F6E7A3-3C8E-4DD8-AC21-89B4FA5EF25C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibPorts", "..\PollServer\PortsLib\LibPorts.csproj", "{13571FB0-472F-43B0-947D-64C5D1F2B4A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{FA1F6772-E580-46D0-A7D1-1D58D77BA8CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA1F6772-E580-46D0-A7D1-1D58D77BA8CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA1F6772-E580-46D0-A7D1-1D58D77BA8CE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E3F6E7A3-3C8E-4DD8-AC21-89B4FA5EF25C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E3F6E7A3-3C8E-4DD8-AC21-89B4FA5EF25C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E3F6E7A3-3C8E-4DD8-AC21-89B4FA5EF25C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E3F6E7A3-3C8E-4DD8-AC21-89B4FA5EF25C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13571FB0-472F-43B0-947D-64C5D1F2B4A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13571FB0-472F-43B0-947D-64C5D1F2B4A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13571FB0-472F-43B0-947D-64C5D1F2B4A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13571FB0-472F-43B0-947D-64C5D1F2B4A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

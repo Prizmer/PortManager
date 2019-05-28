@@ -10,8 +10,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using System.IO.Ports;
-using PollingLibraries.LibPorts;
 using PollingLibraries.LibLogger;
+using PollingLibraries.LibPorts;
 
 
 namespace PMControls

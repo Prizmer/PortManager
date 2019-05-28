@@ -61,8 +61,8 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PortsLib\LibPorts.csproj">
-      <Project>{e3f6e7a3-3c8e-4dd8-ac21-89b4fa5ef25c}</Project>
+    <ProjectReference Include="..\..\PollServer\PortsLib\LibPorts.csproj">
+      <Project>{13571fb0-472f-43b0-947d-64c5d1f2b4a4}</Project>
       <Name>LibPorts</Name>
     </ProjectReference>
   </ItemGroup>
