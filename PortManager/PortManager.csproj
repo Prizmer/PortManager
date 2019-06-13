@@ -36,8 +36,8 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CtlCrcCalc">
-      <HintPath>..\..\..\testUtils\crc_сalc\CtlCrcCalc\bin\Debug\CtlCrcCalc.dll</HintPath>
+    <Reference Include="LibCRC">
+      <HintPath>..\..\testUtils\crc_сalc\LibCRC\bin\Debug\LibCRC.dll</HintPath>
     </Reference>
     <Reference Include="PMControls">
       <HintPath>..\PMControls\bin\Debug\PMControls.dll</HintPath>
@@ -94,10 +94,6 @@
     <ProjectReference Include="..\..\PollServer\PortsLib\LibPorts.csproj">
       <Project>{13571fb0-472f-43b0-947d-64c5d1f2b4a4}</Project>
       <Name>LibPorts</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\PMControls\CtlPortManager.csproj">
-      <Project>{fa1f6772-e580-46d0-a7d1-1d58d77ba8ce}</Project>
-      <Name>CtlPortManager</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

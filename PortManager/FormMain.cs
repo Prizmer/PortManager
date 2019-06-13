@@ -71,5 +71,10 @@ namespace PortManager
         {
             return -1;
         }
+
+        private void FormMain_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
